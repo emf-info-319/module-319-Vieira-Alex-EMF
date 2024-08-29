@@ -5,6 +5,8 @@ package exercices.exercice03;
  */
 public class TypesDeBase {
 
+
+
     public static void main(String[] args) {
         
         int age = 15 ;
