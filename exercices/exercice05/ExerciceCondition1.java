@@ -5,7 +5,7 @@ public class ExerciceCondition1 {
         
         int valeurATester = 27;
 
-        if (valeurATester>0) {
+        if (valeurATester>=0) {
             System.out.println("La valeur est positive");
         
         }
