@@ -1,6 +1,8 @@
 package exercices.exercice06;
 
 public class ExerciceSwitch1 {
+
+    /// If else
     public static void main(String[] args) {
         int noteDuModule = 4;
 
@@ -17,6 +19,30 @@ public class ExerciceSwitch1 {
             System.out.println("Bien ! ");
         }else if (noteDuModule == 6) {
             System.out.println("Très bien");
+        }
+
+        // Switch
+
+        switch (noteDuModule) {
+            case 1:
+                System.out.println("Travail non rendu");
+                break;
+                case 2: 
+                    System.out.println("Très insuffisant");
+                    break;
+                    case 3: 
+                        System.out.println("Insuffisant");
+                        break;
+                        case 4 : 
+                            System.out.println("Suffisant");
+                            break;
+                            case 5 : 
+                                System.out.println("Bien!");
+                                break;
+                                case 6 : 
+                                    System.out.println("Très Bien");
+                                    break;
+
         }
     }
 }

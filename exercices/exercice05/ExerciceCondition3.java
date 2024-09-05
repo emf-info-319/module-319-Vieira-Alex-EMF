@@ -6,16 +6,10 @@ public class ExerciceCondition3 {
         int valeur2 = -42;
 
 
-        if (valeur1 > 0) {
+        if ((valeur1 > 0) && (valeur2 > 0)) {
             System.out.println("La valeur 1 est positive");
-        }else if (valeur1 < 0) {
+        }else if ((valeur1 < 0) && (valeur2 < 0)) {
             System.out.println("La valeur 1 est négative");
-        }
-        if (valeur2 > 0) {
-            System.out.println("La valeur 2 est positive");
-            
-        }else if (valeur2 < 0) {
-            System.out.println("La valeur 2 est négative");
         }
 
     }
