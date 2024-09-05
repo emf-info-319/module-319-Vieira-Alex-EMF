@@ -7,9 +7,9 @@ public class ExerciceCondition3 {
 
 
         if ((valeur1 > 0) && (valeur2 > 0)) {
-            System.out.println("La valeur 1 est positive");
-        }else if ((valeur1 < 0) && (valeur2 < 0)) {
-            System.out.println("La valeur 1 est négative");
+            System.out.println("Le resultat est positive");
+        }else{
+            System.out.println("le resultat est négatif");
         }
 
     }
