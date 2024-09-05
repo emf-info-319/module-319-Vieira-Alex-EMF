@@ -15,9 +15,9 @@ public class EchangeValeurs {
          System.out.println("variable 1 = " + variable1 + ", variable 2 = " + variable2);
          System.out.println("Transcript...");
 
-         variable1 = variable2;
-         variable2 =   variable1;
-
+        int after = variable1;
+        variable1 = variable2;
+        variable2 = after;
 
          System.out.println("variable 1 = " + variable1 + ", variable 2 = " + variable2);
 
