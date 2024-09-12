@@ -12,9 +12,16 @@ public class devoir02 {
 
 
         System.out.println("Il y a " + remplissage + " litres à remplir. ");
+        System.out.println( "Le reservoir A a " + reservoirA + " litres" + " Le reservoir B a " + reservoirB + " litres");
 
         while (reservoirA < CAPACITE_RESERVOIR_A) {
-            
+            reservoirA = reservoirA + remplissage;
+            System.out.println("Voici le reservoir A : " + reservoirA + " Litres");
+            if (reservoirA == CAPACITE_RESERVOIR_A) {
+                
+                reservoirB = reservoirB + remplissage;
+                System.out.println("Voici le reservoir B : " + reservoirB + " Litres");
+            }
         }
 
     }
