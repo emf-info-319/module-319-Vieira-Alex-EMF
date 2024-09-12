@@ -1,3 +1,7 @@
+package exercices.exercice08.ExercicesBoucles1;
+
+
+
 public class ExercicesBoucle2 {
     public static void main(String[] args) {
         System.out.println("Boucle for :");
