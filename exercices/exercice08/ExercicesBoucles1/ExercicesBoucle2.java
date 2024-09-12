@@ -10,7 +10,7 @@ public class ExercicesBoucle2 {
 
             System.out.println(i);
             if (i == 1) {
-                System.out.println("Décollage !!");
+                System.out.println("Décollage !!"); // Quand le chiffre est 1 la console va afficher Décollage !! 
             }
         }
         System.out.println("Boucle while :");

@@ -9,19 +9,19 @@ public class ExercicesBoucles1 {
         
 
         // Boucle for
-        for (int i = 1; i<=5; i++){
+        for (int i = 1; i<=5; i++){ // il va prendre le i et va faire +1 a chaque fois
                 System.out.println("Boucle for, iteraction " + i);
             }
             int i = 1;
 
         // Boucle while
-        while (i<=5) {
+        while (i<=5) {// Il va afficher la valeur i et faire +1 jusqu'à être plus grand que 5
             System.out.println("Boucle while, itération " + i);
             ++i;
         }
         // Boucle do while
         int l = 1;
-        do {
+        do { // on va définir notre variable 
             System.out.println("Boucle do-while, itéraction " + l);
             l++;
         } while (l <= 5);
