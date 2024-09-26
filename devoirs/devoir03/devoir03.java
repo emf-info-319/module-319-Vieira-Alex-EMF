@@ -4,40 +4,30 @@
  */
 public class devoir03 {
 
-
-
-    public final static int DayMax = 31;
-    public final static int DayMin = 1;
-
-    public final static int MonthMax = 12;
-    public final static int MonthMin = 1;
-
-    public final static int YearMax = 2024;
-    public final static int YearMin = 1;
-
-
-// Bloquage
-
-
-
     public static void main(String[] args) {
-        int calendrier = 365;
         int day ;
-        int month ;
-        int year;
+        int month;
+        int year ;
 
-        day = (int) (Math.random() * ( DayMax - DayMin + 1)) - DayMin;
+        day = 21;
 
-        month = (int) (Math.random() * ( MonthMax - MonthMin + 1)) - MonthMin;
+        month = 2;
 
-        year = (int) (Math.random() * ( YearMax - YearMin + 1)) - YearMin;
+        year = 2024;
 
-        System.out.println(day + "/" + month);
-        if (month > 1) {
-            day *= month;
-            System.out.println(day);
+        int[] joursMois;
+        joursMois = new int[]{31,28,31,31,30,31,31,30,31,30,31};
+        int jourtotal = 0;
+
+        if (year % 4 == 0 || year % 400 == 0) {
+            joursMois[1] = 29;
         }
-
+        for(int i = 0; i < month - 1; i++) {
+            jourtotal = jourtotal + joursMois[i];
+                        
+        }
+        jourtotal = jourtotal + day;
+        System.out.println("Le " + day + "/" + month + "/" + year + " est le jour " + jourtotal + " de l'An");
 
         
 
