@@ -6,6 +6,15 @@ package RP;
 public class A {
 
     public static void main(String[] args) {
-        System.out.println(1+1);
+
+        int[] tab = new int[5];
+
+
+        for (int i = 0; i < tab.length; i++) {
+            
+            i++;
+        }
+
+
     }
 }
