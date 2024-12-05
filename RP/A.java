@@ -5,16 +5,13 @@ package RP;
  */
 public class A {
 
+
+    public final static int TARTIFLETTE = 2;
     public static void main(String[] args) {
+        int num = 0;
 
-        int[] tab = new int[5];
-
-
-        for (int i = 0; i < tab.length; i++) {
-            
-            i++;
+        while (num <= 5) {
+            System.out.println(num++);
         }
-
-
     }
 }
